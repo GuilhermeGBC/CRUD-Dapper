@@ -12,7 +12,7 @@ namespace BaltaDataAccess
     {
         static void Main(string[] args)
         {
-            const string connectionString = "Server=localhost,1433;Database=guisql;User ID=sa;Password=s7s8s9s10";
+            const string connectionString = "Server=localhost,1433;Database=guisql;User ID=sa;Password=";
 
             using (var connection = new SqlConnection(connectionString))
             {
